@@ -53,9 +53,17 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| General | Post create new permits linked to a recurring contract, Post disable stored payment details, Post disable an existing permit, Post get stored payment details, Post ask issuer to notify the shopper, Post schedule running the account updater |
+<details>
+<summary><b>General</b> (6 operations)</summary>
+
+- Post Create new permits linked to a recurring contract
+- Post Disable stored payment details
+- Post Disable an existing permit
+- Post Get stored payment details
+- Post Ask issuer to notify the shopper
+- Post Schedule running the Account Updater
+
+</details>
 
 ---
 

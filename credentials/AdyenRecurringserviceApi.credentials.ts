@@ -8,7 +8,7 @@ import type {
 export class AdyenRecurringserviceApi implements ICredentialType {
 	name = 'N8nDevAdyenRecurringserviceApi';
 
-	displayName = 'adyen-recurringservice API';
+	displayName = 'Adyen Recurringservice API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenRecurringservice/adyen-recurringservice.svg', dark: 'file:../nodes/AdyenRecurringservice/adyen-recurringservice.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AdyenRecurringserviceApi implements ICredentialType {
 			default: 'https://pal-test.adyen.com/pal/servlet/Recurring/v68',
 			required: true,
 			placeholder: 'https://pal-test.adyen.com/pal/servlet/Recurring/v68',
-			description: 'The base URL of your adyen-recurringservice API server',
+			description: 'The base URL of your Adyen Recurringservice API server',
 		},
 		{
 			displayName: 'API Key',

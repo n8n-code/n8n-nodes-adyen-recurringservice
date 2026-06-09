@@ -3,14 +3,14 @@ import { generalDescription } from './resources/general';
 
 export class AdyenRecurringservice implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-recurringservice',
+		displayName: 'Adyen Recurringservice',
 		name: 'N8nDevAdyenRecurringservice',
 		icon: { light: 'file:./adyen-recurringservice.svg', dark: 'file:./adyen-recurringservice.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Recurring APIs allow you to manage and remove your tokens or saved payment details. Tokens should be created with validation during a payment request',
-		defaults: { name: 'adyen-recurringservice' },
+		description: 'Recurring APIs manage and remove tokens or payment details. Tokens require validation during payment requests.',
+		defaults: { name: 'Adyen Recurringservice' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

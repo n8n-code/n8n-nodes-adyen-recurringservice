@@ -924,7 +924,7 @@ export const generalDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Stored Payment Method Id",
+			"displayName": "Stored Payment Method ID",
 			"name": "storedPaymentMethodId",
 			"type": "string",
 			"default": "",

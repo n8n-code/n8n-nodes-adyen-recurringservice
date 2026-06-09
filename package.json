@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-adyen-recurringservice",
-  "version": "1.0.0",
-  "description": "Recurring APIs allow you to manage and remove your tokens or saved payment details. Tokens should be created with validation during a payment request",
+  "version": "1.0.1",
+  "description": "Recurring APIs manage and remove tokens or payment details. Tokens require validation during payment requests.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-recurringservice",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "adyen-recurringservice"
