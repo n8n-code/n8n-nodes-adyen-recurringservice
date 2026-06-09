@@ -1,0 +1,1 @@
+export { generalDescription } from './general';
